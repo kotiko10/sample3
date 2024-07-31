@@ -13,6 +13,7 @@ const images = [
 
 const Gallery = () => {
   return (
+    <div className="gallery_wrapper">
     <div className="gallery">
       {images.map((image, index) => (
         <div key={index} className="gallery-item">
@@ -20,7 +21,8 @@ const Gallery = () => {
           <div className="caption">{image.caption}</div>
         </div>
       ))}
-      <div className="gallery-text">
+    </div>
+    <div className="gallery-text">
         <p>Our gallery showcases a variety of moments captured through our lenses. Each photo tells a story, representing the essence and beauty of our work. We hope you enjoy browsing through these images as much as we enjoyed creating them.</p>
       </div>
     </div>
