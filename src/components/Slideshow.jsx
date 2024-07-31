@@ -6,11 +6,11 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Slideshow.css';
 
 const images = [
-  'https://via.placeholder.com/800x400/ff0000/ffffff?text=Slide+1',
-  'https://via.placeholder.com/800x400/ff0000/ffffff?text=Slide+2',
-  'https://via.placeholder.com/800x400/ff0000/ffffff?text=Slide+3',
-  'https://via.placeholder.com/800x400/ff0000/ffffff?text=Slide+4',
-  'https://via.placeholder.com/800x400/ff0000/ffffff?text=Slide+5',
+  'https://magictoolbox.sirv.com/images/magicslideshow/03/image-slideshow-04.jpg?scale.width=1000',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5v9k8iZQEVFSmhK3Oxkb9WkZ--WvGIJx3Q&s',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4R_bR_tVUQJWtlB6GBUwvnOmKTHvvyNyDeZ5grkYgXY6ZZJKiXLfRWScKs69zJdy9CMg&usqp=CAU',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBwIympClguko8c1R-Ebs10a2iJFTsN181yg&s',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2cyHJr4r60f2XIahd_IqzEDwkXj-QK6c3g&s',
 ];
 
 const Slideshow = () => {
@@ -33,7 +33,7 @@ const Slideshow = () => {
         {images.map((image, index) => (
           <div key={index} className="slide">
             <img src={image} alt={`Slide ${index + 1}`} />
-            <button className="go-to-gallery" onClick={() => navigate('/gallery')}>
+            <button className="go-to-gallery" onClick={() => navigate('/sample3/gallery')}>
               Go to Gallery
             </button>
           </div>

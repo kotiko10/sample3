@@ -6,11 +6,11 @@ const Menu = () => {
   return (
     <nav className="menu">
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/gallery">Gallery</Link></li>
-        <li><Link to="/contact-us">Contact Us</Link></li>
-        <li><Link to="/about-us">About Us</Link></li>
-        <li><Link to="/services">Services</Link></li>
+        <li><Link to="/sample3/">Home</Link></li>
+        <li><Link to="/sample3/gallery">Gallery</Link></li>
+        <li><Link to="/sample3/contact-us">Contact Us</Link></li>
+        <li><Link to="/sample3/about-us">About Us</Link></li>
+        <li><Link to="/sample3/services">Services</Link></li>
       </ul>
     </nav>
   );
