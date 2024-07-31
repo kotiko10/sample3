@@ -1,0 +1,57 @@
+.slideshow {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: black; /* Change arrow color to black */
+  }
+  
+  .slick-dots li button:before {
+    color: white; /* Change dot color to white */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black; /* Change active dot color to black */
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+    transition: filter 0.9s ease; /* Transition for grayscale effect */
+  }
+  
+  .slide:hover img {
+    filter: grayscale(100%); /* Apply grayscale on hover */
+  }
+  
+  .go-to-gallery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background-color 0.9s ease, color 0.9s ease;
+  }
+  
+  .slide:hover .go-to-gallery {
+    display: block;
+  }
+  
+  .slide:hover .go-to-gallery:hover {
+    background-color: white; /* Button background color on hover */
+    color: black; /* Button text color on hover */
+  }
+  
