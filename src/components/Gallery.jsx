@@ -13,7 +13,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className="gallery_wrapper1">
+    <div className="gallery_wrapper">
     <div className="gallery">
       {images.map((image, index) => (
         <div key={index} className="gallery-item">
