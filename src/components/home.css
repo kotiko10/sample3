@@ -1,3 +1,12 @@
-div{
+.home {
     width: 100%;
-}
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 24px;
+    }
+  }
+  

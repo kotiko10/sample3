@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaInstagram } from 'react-icons/fa';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -10,9 +11,13 @@ const ContactUs = () => {
           <h2>Get in Touch</h2>
           <p><strong>Phone:</strong> +1 (123) 456-7890</p>
           <p><strong>Email:</strong> contact@example.com</p>
-          <button className="email-button" onClick={() => window.location = 'mailto:contact@example.com'}>
+          <button className="email-button" onClick={() => window.location = 'mailto:koti1.nebieridze@gmail.com'}>
             Send Email
           </button>
+          <p><strong>Follow us on Instagram:</strong></p>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram className="instagram-logo" />
+          </a>
         </div>
         <div className="map-container">
           <iframe
