@@ -1,54 +1,98 @@
+/* Keyframes for animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .about-us {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .about-us h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .about-us p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .mission {
-    margin-top: 40px;
-  }
-  
-  .mission h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  
-  .team {
-    margin-top: 40px;
-  }
-  
-  .team h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .team-member {
-    display: inline-block;
-    margin: 10px;
-    text-align: center;
-  }
-  
-  .team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-  }
-  
-  .team-member p {
-    margin: 5px 0;
-    font-size: 16px;
-  }
-  
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation to the container */
+}
+
+.about-us h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out; /* Apply slideIn animation to the heading */
+  color: #BAFF39;
+}
+
+.about-us p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation to the paragraph */
+  color: white;
+}
+
+.mission {
+  margin-top: 40px;
+}
+
+.mission h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  animation: slideIn 1s ease-in-out; /* Apply slideIn animation to the mission heading */
+  color: #BAFF39;
+}
+
+.mission p {
+  animation: fadeIn 1s ease-in-out; 
+  color: white;
+}
+
+.team {
+  margin-top: 40px;
+}
+
+.team h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease-in-out; /* Apply slideIn animation to the team heading */
+  color: #BAFF39;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation to each team member */
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.team-member:hover img{
+  box-shadow:0 4px 16px #baff399c;
+}
+
+.team-member p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: white;
+}
+.team-member strong{
+  color: #BAFF39;
+}

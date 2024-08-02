@@ -31,7 +31,7 @@ const Services = () => {
       <h1>Our Services</h1>
       <div className="services-list">
         {services.map((service, index) => (
-          <div key={index} className="service-item">
+          <div key={index} className="service-item" style={{ '--order': index }}>
             <div className="icon">{service.icon}</div>
             <h2>{service.title}</h2>
             <p>{service.description}</p>

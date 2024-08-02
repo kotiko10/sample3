@@ -25,20 +25,21 @@
   height: 600px;
   display: block;
   transition: filter 0.9s ease; /* Transition for grayscale effect */
+  filter: grayscale(0%);
 }
 
 .slide:hover img {
-  filter: grayscale(100%); /* Apply grayscale on hover */
+  filter: grayscale(10  0%); /* Apply grayscale on hover */
 }
 
 .go-to-gallery {
-  position: absolute;
+  position: absolute; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: #BAFF39;
+  color: black;
   border: none;
   cursor: pointer;
   display: none;
