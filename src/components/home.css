@@ -25,17 +25,17 @@
   }
 
   .mark {
-    background-color: #333; /* Dark background */
-    height: 80px; /* Fixed height */
-    display: flex; /* Use flexbox for layout */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    margin-bottom: 15px; /* Space below the div */
+    background-color: #333; 
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 15px; 
   }
   
   .mark h3 {
-    color: white; /* Ensure text is visible on dark background */
-    margin: 0; /* Remove default margin */
+    color: white; 
+    margin: 0; 
     letter-spacing: 5px;
   }
   
@@ -45,7 +45,7 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
-  justify-content: center; /* Center the content */
+  justify-content: center; 
   margin: auto;
   margin-bottom: 30px;
   width: 75%;
@@ -72,14 +72,14 @@
   }
   
   .info .text {
-    flex: 2; /* Allow text section to grow more */
-    font-size: 28px; /* Adjust the font size for the text */
-    margin-left: 20px; /* Space between logo and text */
+    flex: 2; 
+    font-size: 28px; 
+    margin-left: 20px; 
   }
   
   @media (max-width: 768px) {
     .info .text {
-      font-size: 16px; /* Adjust font size for smaller screens */
+      font-size: 16px; 
     }
   }
   
