@@ -3,6 +3,9 @@
   margin: auto;
 }
 
+.slick-dots{
+  position: static;
+}
 .slick-prev:before,
 .slick-next:before {
   color: var(--slidehow-arrow-color);
@@ -29,7 +32,7 @@
 }
 
 .slide:hover img {
-  filter: grayscale(10  0%); 
+  filter: grayscale(100%); 
 }
 
 .go-to-gallery {

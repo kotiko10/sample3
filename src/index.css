@@ -1,6 +1,29 @@
 :root{
     --primary-backgorund: #090909;
     --item-background :  #050505;
+    --primary-text-color :  red;
+    --secondery-text-color : white;
+    --primary-shadow-hover : #baff39;
+    --primary-shadow-static : #e6e4e433;
+    --contact-div-color : #0e0e0e;
+    --button-backgorund : #baff39;
+    --button-color: black;
+    --button-hover-background: white;
+    --div-mark-color : #070707;
+    --menu-background: #060606;
+    --menu-button-hover-background:#baff39;
+    --menu-button-hover-color: black;
+    --menu-overlay: #00000080;
+    --popup-menu-background:#090909;
+    --menu-button-hover-color-popup: #baff39;
+    --slidehow-arrow-color:white;
+    --dot-color-active:#baff39;
+    --dot-color-inactive:white;
+}
+
+[data-theme="dark"]{
+    --primary-backgorund: #090909;
+    --item-background :  #050505;
     --primary-text-color :  #baff39;
     --secondery-text-color : white;
     --primary-shadow-hover : #baff39;

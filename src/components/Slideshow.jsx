@@ -33,7 +33,7 @@ const Slideshow = () => {
         {images.map((image, index) => (
           <div key={index} className="slide">
             <img src={image} alt={`Slide ${index + 1}`} />
-            <button className="go-to-gallery" onClick={() => navigate('/sample3/gallery')}>
+            <button className="go-to-gallery" onClick={() => navigate('/gallery')}>
               Go to Gallery
             </button>
           </div>
