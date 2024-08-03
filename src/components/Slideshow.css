@@ -5,15 +5,15 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: white;
+  color: var(--slidehow-arrow-color);
 }
 
 .slick-dots li button:before {
-  color: black; 
+  color: var(--dot-color-inactive); 
 }
 
 .slick-dots li.slick-active button:before {
-  color: white; 
+  color: var(--dot-color-active); 
 }
 
 .slide {
@@ -38,12 +38,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  background-color: #BAFF39;
-  color: black;
+  background-color: var(--button-backgorund);
+  color: var(--button-color);
   border: none;
   cursor: pointer;
   display: none;
-  border-radius: 8px;
   border: 1px solid transparent;
   transition: background-color 0.9s ease, color 0.9s ease;
 }
@@ -53,8 +52,8 @@
 }
 
 .slide:hover .go-to-gallery:hover {
-  background-color: white; 
-  color: black; 
+  background-color: var(--button-hover-background); 
+  color: var(--button-color); 
 }
 
 

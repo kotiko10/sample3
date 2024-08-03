@@ -1,7 +1,7 @@
 .contact-us {
   padding: 20px;
-  background-color: #0e0e0e;
-  color: #BAFF39;
+  background-color: var(--contact-div-color);
+  color: var(--primary-text-color);
   margin: auto;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -25,24 +25,24 @@
 .contact-info p {
   font-size: 18px;
   margin: 5px 0;
-  color: white;
+  color: var(--secondery-text-color);
 }
 
 .email-button {
   padding: 10px 20px;
   font-size: 16px;
-  color: black;
+  color: var(--button-color);
   background-color: transparent;
-  border: solid #BAFF39;
-  background-color: #BAFF39;
+  border: solid var(--button-backgorund);
+  background-color: var(--button-backgorund);
   cursor: pointer;
   transition: background-color 0.5s;
 }
 
 .email-button:hover {
-  background-color: white;
-  border-color: white;
-  color: black;
+  background-color: var(--button-hover-background);
+  border-color: var(--button-hover-background);
+  color: var(--button-color);
 }
 
 .map-container {

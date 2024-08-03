@@ -1,6 +1,6 @@
 .menu {
   padding: 10px 0;
-  background-color: #060606;
+  background-color: var(--menu-background);
 }
 
 .menu-container {
@@ -11,7 +11,7 @@
 
 .menu-icon {
   font-size: 24px;
-  color: white;
+  color: var(--secondery-text-color);
   cursor: pointer;
   display: none;
 }
@@ -29,7 +29,7 @@
 }
 
 .menu-list a {
-  color: white;
+  color: var(--secondery-text-color);
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -40,8 +40,8 @@
 }
 
 .menu-list a:hover {
-  background-color: #BAFF39;
-  color: black;
+  background-color: var(--menu-button-hover-background);
+  color: var(--menu-button-hover-color);
 }
 
 .close-icon {
@@ -66,7 +66,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--menu-overlay);
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -84,7 +84,7 @@
     left: -100%;
     height: 100%;
     width: 80%;
-    background-color: #090909;
+    background-color: var(--popup-menu-background);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,13 +110,13 @@
 
   .menu-list a:hover {
     background-color: transparent;
-    color: #BAFF39;
+    color: var(--menu-button-hover-color-popup);
   }
 
   .close-icon {
     display: block;
     font-size: 24px;
-    color: white;
+    color: var(--secondery-text-color);
     cursor: pointer;
     position: absolute;
     top: 20px;

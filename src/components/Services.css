@@ -8,7 +8,7 @@
 .services h1 {
   font-size: 36px;
   margin-bottom: 40px;
-  color: #baff39;
+  color: var( --primary-text-color);
 }
 
 .services-list {
@@ -19,10 +19,10 @@
 }
 
 .service-item {
-  background: #050505;
+  background:var(--item-background);
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(186, 185, 185, 0.1);
+  box-shadow: 0 4px 8px var(--primary-shadow-static);
   text-align: center;
   opacity: 0; 
   transform: translateY(30px); 
@@ -33,7 +33,7 @@
 
 .service-item:hover {
   transform: translateY(-100px);
-  box-shadow: 0 8px 16px #baff39e6;
+  box-shadow: 0 8px 16px var(--primary-shadow-hover);
 }
 
 
@@ -45,12 +45,12 @@
 .service-item h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #BAFF39;
+  color: var( --primary-text-color);
 }
 
 .service-item p {
   font-size: 16px;
-  color: white;
+  color: var(--secondery-text-color);
 }
 
 @keyframes fadeInUp {
