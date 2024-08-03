@@ -4,7 +4,7 @@ import './Gallery.css';
 const images = [
   { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5v9k8iZQEVFSmhK3Oxkb9WkZ--WvGIJx3Q&s', caption: 'Photo text'},
   { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5v9k8iZQEVFSmhK3Oxkb9WkZ--WvGIJx3Q&s', caption: 'photo text'},
-  { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4R_bR_tVUQJWtlB6GBUwvnOmKTHvvyNyDeZ5grkYgXY6ZZJKiXLfRWScKs69zJdy9CMg&usqp=CAU', caption: 'photo text'},
+  { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5v9k8iZQEVFSmhK3Oxkb9WkZ--WvGIJx3Q&s', caption: 'photo text'},
   { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBwIympClguko8c1R-Ebs10a2iJFTsN181yg&s', caption: 'photo text'},
   { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu2cyHJr4r60f2XIahd_IqzEDwkXj-QK6c3g&s', caption: 'photo text'},
   { src:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5v9k8iZQEVFSmhK3Oxkb9WkZ--WvGIJx3Q&s', caption: 'photo text'},

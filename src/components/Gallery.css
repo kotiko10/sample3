@@ -9,11 +9,11 @@
 }
 
 .gallery-item {
-  background-color: #333;
+  background-color: #050505;
   position: relative;
   overflow: hidden; 
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(230, 228, 228, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center; 
 }

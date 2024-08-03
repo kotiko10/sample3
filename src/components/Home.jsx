@@ -35,7 +35,9 @@ function Home() {
       <div className="mark">
         <h3>Fetaured events</h3>
       </div>
+      <div className="slides">
       <Slideshow />
+      </div>
     </div>
   );
 }
