@@ -5,15 +5,15 @@
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  color: white;
 }
 
 .slick-dots li button:before {
-  color: white; 
+  color: black; 
 }
 
 .slick-dots li.slick-active button:before {
-  color: black; 
+  color: white; 
 }
 
 .slide {
