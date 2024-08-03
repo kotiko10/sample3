@@ -17,11 +17,11 @@ const Menu = () => {
         <div className={`overlay ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}></div>
         <ul className={`menu-list ${menuOpen ? 'open' : ''}`}>
           <FaTimes className="close-icon" onClick={toggleMenu} />
-          <li><Link to="/sample3/" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/sample3/gallery" onClick={toggleMenu}>Gallery</Link></li>
-          <li><Link to="/sample3/contact-us" onClick={toggleMenu}>Contact Us</Link></li>
-          <li><Link to="/sample3/about-us" onClick={toggleMenu}>About Us</Link></li>
-          <li><Link to="/sample3/services" onClick={toggleMenu}>Services</Link></li>
+          <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
+          <li><Link to="/gallery" onClick={toggleMenu}>Gallery</Link></li>
+          <li><Link to="/contact-us" onClick={toggleMenu}>Contact Us</Link></li>
+          <li><Link to="/about-us" onClick={toggleMenu}>About Us</Link></li>
+          <li><Link to="/services" onClick={toggleMenu}>Services</Link></li>
         </ul>
       </div>
     </div>

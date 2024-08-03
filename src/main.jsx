@@ -11,14 +11,14 @@ import Menu from './components/Menu';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/sample3/'>
       <Menu/>
       <Routes>
-        <Route path="/sample3" element={<Home />} />
-        <Route path="/sample3/gallery" element={<Gallery />} />
-        <Route path="/sample3/contact-us" element={<ContactUs />} />
-        <Route path="/sample3/about-us" element={<AboutUs />} />
-        <Route path="/sample3/services" element={<Services />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
       </Routes>
     </Router>
   );
